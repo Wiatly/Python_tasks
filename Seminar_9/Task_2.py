@@ -1,14 +1,19 @@
 class DocMeta(type):
-    a=None
+    a = None
+
     def __call__(cls, *args, **kwargs):
         if not cls.a:
             cls.a = type.__call__(cls, *args, **kwargs)
         return cls.a
 
+
 class My_class(metaclass=DocMeta):
     pass
+
+
 class Wy_class():
     pass
+
 
 obj_1 = My_class()
 print(obj_1)
