@@ -17,6 +17,7 @@
 """
 
 
+
 def print_list(lst):
     for elem in lst:
         print(f"{type(elem)}\n{elem}")

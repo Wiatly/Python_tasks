@@ -10,6 +10,7 @@
 придумайте как это сделать
 """
 
+
 for s in ['attribute', 'класс', 'функция', 'type']:
     # SyntaxError: bytes can only contain ASCII literal characters
 

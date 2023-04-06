@@ -10,6 +10,7 @@
 """
 
 
+
 var = ['разработка', 'администрирование', 'protocol', 'standard']
 for i in var:
     print(f'{i}, {type(i)}')

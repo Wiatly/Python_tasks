@@ -11,6 +11,7 @@
 --- используйте списки и циклы, не дублируйте функции
 """
 
+
 var = [b'class', b'function', b'method']
 
 for line in var:
